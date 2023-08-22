@@ -69,7 +69,7 @@
 
               <!-- About -->
               <li class="nav-item active">
-                <a class="nav-link" href="/">about<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/">About<span class="sr-only">(current)</span></a>
               </li>
               
 
@@ -153,7 +153,7 @@
           </div>
 
           <!-- News -->
-          <h2><a href="/news/" style="color: inherit;">news</a></h2>          
+          <h2><a href="/news/" style="color: inherit;">News</a></h2>          
           <div class="news">
             <div class="table-responsive">
               <table class="table table-sm table-borderless">
@@ -178,91 +178,9 @@
 
 
           <!-- Selected papers -->
-          <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2>
+          <h2><a href="/publications/" style="color: inherit;">Selected Publications</a></h2>
           <div class="publications">
-            <ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 preview">
-<figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/publication_preview/mizero_tall.jpg" class="preview z-depth-1 rounded" width="auto" height="auto" alt="mizero_tall.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-</div>
-
-        <!-- Entry bib key -->
-        <div id="chan2022augmented" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Augmented Features Synergize Radiomics in Post-Operative Survival Prediction and Adjuvant Therapy Recommendation for Non-Small Cell Lung Cancer</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Lawrence Wing-Chi Chan, <em>Tong Ding</em>, Huiling Shao, and
-          <span class="more-authors" title="click to view 8 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '8 more authors' ? 'Mohan Huang, William Fuk-Yuen Hui, William Chi-Shing Cho, Sze-Chuen Cesar Wong, Ka Wai Tong, Keith Wan-Hang Chiu, Luyu Huang,  others' : '8 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">8 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Frontiers in Oncology</em>, 2022
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2022.659096/full" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Contrastive visual language pretraining has emerged as a powerful method for either training new language-aware image encoders or augmenting existing pretrained models with zero-shot visual recognition capabilities. However, existing works typically train on large datasets of image-text pairs and have been designed to perform downstream tasks involving only small to medium sized-images, neither of which are applicable to the emerging field of computational pathology where there are limited publicly available paired image-text datasets and each image can span up to 100,000 x 100,000 pixels in dimensions. In this paper we present MI-Zero, a simple and intuitive framework for unleashing the zero-shot transfer capabilities of contrastively aligned image and text models to gigapixel histopathology whole slide images, enabling multiple downstream diagnostic tasks to be carried out by pretrained encoders without requiring any additional labels. MI-Zero reformulates zero-shot transfer under the framework of multiple instance learning to overcome the computational challenge of inference on extremely large images. We used over 550k pathology reports and other available in-domain text corpora to pretrain our text encoder. By effectively leveraging strong pretrained encoders, our best model pretrained on over 33k histopathology image-caption pairs achieves an average median zero-shot accuracy of 70.2% across three different real-world cancer subtyping tasks. Our code is available at: https://github.com/mahmoodlab/MI-Zero.</p>
-          </div>
-<!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">chan2022augmented</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Augmented Features Synergize Radiomics in Post-Operative Survival Prediction and Adjuvant Therapy Recommendation for Non-Small Cell Lung Cancer}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Chan, Lawrence Wing-Chi and Ding, Tong and Shao, Huiling and Huang, Mohan and Hui, William Fuk-Yuen and Cho, William Chi-Shing and Wong, Sze-Chuen Cesar and Tong, Ka Wai and Chiu, Keith Wan-Hang and Huang, Luyu and others}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Frontiers in Oncology}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{12}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{659096}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Frontiers}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
+            <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 preview">
@@ -287,11 +205,11 @@
         <div class="author">
         
 
-        Ming Y Lu*, Bowen Chen*, Andrew Zhang, and
-          <span class="more-authors" title="click to view 6 more authors" onclick="
+        Ming Y Lu*, Bowen Chen*, Andrew Zhang, Drew FK Williamson, Richard J Chen, <em>Tong Ding</em>, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
-                var more_authors_text = element.text() == '6 more authors' ? 'Drew FK Williamson, Richard J Chen, Tong Ding, Long Phi Le, Yung-Sung Chuang, Faisal Mahmood' : '6 more authors';
+                var more_authors_text = element.text() == '3 more authors' ? 'Long Phi Le, Yung-Sung Chuang, Faisal Mahmood' : '3 more authors';
                 var cursorPosition = 0;
                 var textAdder = setInterval(function(){
                   element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -299,7 +217,7 @@
                     clearInterval(textAdder);
                   }
               }, '10');
-              ">6 more authors</span>
+              ">3 more authors</span>
 </div>
 
         <!-- Journal/Book title and date -->
@@ -340,8 +258,7 @@
           </div>
         </div>
       </div>
-</li>
-</ol>
+</li></ol>
           </div>
 
 
@@ -349,6 +266,8 @@
             <div class="social">
               <div class="contact-icons">
                 <a href="mailto:%74%6F%6E%67_%64%69%6E%67@%67.%68%61%72%76%61%72%64.%65%64%75" title="email"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/HHenryD" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/tong-ding-" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             
 
