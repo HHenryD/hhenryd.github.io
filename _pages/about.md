@@ -14,11 +14,9 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-I am an incoming Ph.D. student in Computer Science at [Harvard University](https://seas.harvard.edu/).
+I am a first-year Ph.D. student in Computer Science at [Harvard University](https://seas.harvard.edu/). Prior to starting my Ph.D. I obtained my M.S. in Computational Biology and Quantitative Genetics at Harvard, advised by [Prof. Faisal Mahmood](https://faisal.ai/). Before that, I received my B.S. in Applied Biology with a minor in Applied Mathematics at the Hong Kong Polytechnic University, where I was fortunate to work with [Prof. Lawrence Chan](https://www.polyu.edu.hk/en/hti/people/academic-staff/dr-chan-lawrence-wc/), and [Prof. Songlin Chua](https://www.polyu.edu.hk/en/abct/people/academic-staff/dr-chua-song-lin/). 
 
-Prior to starting my Ph.D. I obtained my M.Sc. in Computational Biology and Quantitative Genetics at Harvard, advised by [Prof. Faisal Mahmood](faisal.ai). Before that, I received my B.Sc. in Applied Biology with a minor in Applied Mathematics at the Hong Kong Polytechnic University, where I was fortunate working with [Prof. Lawrence Chan](https://www.polyu.edu.hk/en/hti/people/academic-staff/dr-chan-lawrence-wc/), and [Prof. Songlin Chua](https://www.polyu.edu.hk/en/abct/people/academic-staff/dr-chua-song-lin/). 
-
-I am currently interested in machine learning for healthcare, with a focus on representation learning for gigapixel computational pathology, natural langugae processing, and multi-modal data fusion. 
+My research interests include gigapixel computational pathology, representation learning, and multimodal integration. 
