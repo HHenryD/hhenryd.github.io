@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tongding.io/sitemap.xml
+Sitemap: https://hhenryd.github.io/sitemap.xml
